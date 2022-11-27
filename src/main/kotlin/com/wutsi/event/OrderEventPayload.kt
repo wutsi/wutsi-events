@@ -1,5 +1,5 @@
 package com.wutsi.event
 
-data class CheckoutEventPayload(
+data class OrderEventPayload(
     val orderId: String = ""
 )
