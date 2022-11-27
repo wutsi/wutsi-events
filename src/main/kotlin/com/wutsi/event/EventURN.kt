@@ -7,8 +7,6 @@ enum class EventURN(val urn: String) {
     BUSINESS_ACCOUNT_ENABLED("urn:wutsi:event:business-account-enabled"),
     BUSINESS_ACCOUNT_DISABLED("urn:wutsi:event:business-account-disabled"),
 
-    CHECKOUT_COMPLETED("urn:wutsi:event:checkout-completed"),
-
     MEMBER_ATTRIBUTE_UPDATED("urn:wutsi:event:member-attribute-updated"),
     MEMBER_DELETED("urn:wutsi:event:member-deleted"),
     MEMBER_REGISTERED("urn:wutsi:event:member-registered"),
