@@ -11,6 +11,8 @@ enum class EventURN(val urn: String) {
     MEMBER_DELETED("urn:wutsi:event:member-deleted"),
     MEMBER_REGISTERED("urn:wutsi:event:member-registered"),
 
+    ORDER_EXPIRED("urn:wutsi:event:order-expired"),
+
     STORE_ENABLED("urn:wutsi:event:store-enabled"),
     STORE_SUSPENDED("urn:wutsi:event:store-suspended"),
 
