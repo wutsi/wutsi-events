@@ -2,6 +2,7 @@ package com.wutsi.event
 
 enum class EventURN(val urn: String) {
     BUSINESS_ACTIVATED("urn:wutsi:event:business-activated"),
+    BUSINESS_CREATED("urn:wutsi:event:business-created"),
     BUSINESS_DEACTIVATED("urn:wutsi:event:business-deactivated"),
 
     MEMBER_ATTRIBUTE_UPDATED("urn:wutsi:event:member-attribute-updated"),
