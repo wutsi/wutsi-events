@@ -18,5 +18,7 @@ enum class EventURN(val urn: String) {
     STORE_ACTIVATED("urn:wutsi:event:store-activated"),
     STORE_DEACTIVATED("urn:wutsi:event:store-deactivated"),
 
-    PAYMENT_METHOD_ADDED("urn:wutsi:event:payment-method-added")
+    PAYMENT_METHOD_ADDED("urn:wutsi:event:payment-method-added"),
+
+    TRACK("urn:wutsi:event:track")
 }
