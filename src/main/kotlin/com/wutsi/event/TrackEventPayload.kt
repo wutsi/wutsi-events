@@ -1,6 +1,6 @@
 package com.wutsi.event
 
-public data class TrackEventRequest(
+public data class TrackEventPayload(
     public val time: Long = 0,
     public val correlationId: String? = null,
     public val deviceId: String? = null,
