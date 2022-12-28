@@ -6,7 +6,7 @@
 
   <artifactId>wutsi-events</artifactId>
   <groupId>com.wutsi</groupId>
-  <version>1.0.14-SNAPSHOT</version>
+  <version>1.0.14</version>
   <packaging>jar</packaging>
 
   <name>wutsi-events</name>
@@ -27,7 +27,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/wutsi/wutsi-events.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>wutsi-events-1.0.14</tag>
   </scm>
   <distributionManagement>
     <repository>
