@@ -11,9 +11,10 @@ public data class TrackEventPayload(
     public val ip: String? = null,
     public val lat: Double? = null,
     public val long: Double? = null,
-    public val referer: String? = null,
+    public val referrer: String? = null,
     public val page: String? = null,
     public val event: String? = null,
-    public val `value`: Double? = null,
+    public val value: String? = null,
+    public val revenue: Long? = null,
     public val url: String? = null,
 )
